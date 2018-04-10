@@ -1,0 +1,247 @@
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/*=== FADE IN DOWN ===*/
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+ }
+@-webkit-keyframes fadeInDown {
+0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0);
+}
+100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+}
+}
+@keyframes fadeInDown {
+0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0);
+}
+100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+}
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#wrapper{
+	display:grid;
+	grid-template-columns: 50% 30% 20%;
+	grid-template-rows: 50% 50%;
+	width:95vw;
+	height:95vh;
+	margin-left: 2.5vw;
+}
+
+#wrapper2{
+	display:grid;
+	grid-template-columns: 30% 50% 20%;
+	grid-template-rows: 50% 50%;
+	width:95vw;
+	height:95vh;
+	margin-left: 2.5vw;
+}
+
+.upperLeftText{
+	font-weight: 800;
+	margin-top: 15px;
+	letter-spacing: 0.5px;
+
+}
+
+#titleMark{
+	width: 300px;
+	margin-top: 215px;
+}
+
+#titleMark2{
+	width: 300px;
+	margin-top: 15px;
+}
+
+.colorBox{
+	width:50px;
+	height: 50px;
+	background: #333333;
+	margin-bottom: 10px;
+	margin-left: 50%;
+}
+
+#a{
+	background:#f4c542;
+}
+#b{
+	background:#f4ad42;
+}
+#c{
+	background:#fff463;
+}
+#d{
+	background:#ff5b40;
+}
+#e{
+	background:#42f4df;
+}
+#f{
+	background:#f6ab3a;
+}
+#g{
+	background:#fccd25;
+}
+#h{
+	background:#ddddd7;
+}
+
+.socialLinks{
+	text-align: right;
+	margin-right: 70%;
+	font-weight: 800;
+	line-height: 50px;
+	letter-spacing: 1px;
+}
+
+.socialLinks:hover;{
+	color: #ddddd7;
+}
+.socialLinks2{
+	display: grid;
+	margin-top: 35px;
+	text-align: right;
+	font-weight: 800;
+	letter-spacing: 1px;
+	margin-right: 10%;
+}
+
+.slink{
+	height:50px;
+}
+
+.slinks2{
+	margin-top: 2px;
+}
+
+#linksBox{
+	-webkit-transform-origin: 0 0;
+    -moz-transform-origin:    0 0;
+    -ms-transform-origin:     0 0;
+    -o-transform-origin:      0 0;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform:    rotate(-90deg); 
+    -ms-transform:     rotate(-90deg); 
+    -o-transform:      rotate(-90deg);
+
+    margin-top: 280px;
+    margin-left: -200px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#contactTitle{
+	color:#ddddd7;
+	margin-bottom: 10px;
+}
+
+.email{
+	color: #ddddd7;
+}
+.email:hover{
+	color: #999999;
+	transition-duration: .4s;
+}
+.phoneNumber{
+	margin-top: 10px;
+	color:#ddddd7;
+}
+
+#projectsLink{
+	margin-top: 200px;
+}
+
+#aboutLink{
+	margin-top: 30px;
+}
+
+#contactTitle{
+	margin-top: 200px;
+}
+
+.backAndTitle{
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.back{
+	color: #ddddd7;
+	font-weight: 700;
+	margin-top: -80px;
+}
+.backProject{
+	color: #ddddd7;
+	font-weight: 700;
+	position: fixed;
+	z-index: 2;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#aboutBlurb{
+	font-weight: 700;
+	margin-left: -100px;
+	margin-top: 150px;
+	width:50vw;
+	word-spacing: 1px;
+}
+
+#profilePhoto{
+	width:300px;
+	margin-left: 210px;
+}
+
+#codedWith{
+	font-weight: 400;
+	color: #ddddd7;
+	margin-top: 265px;
+}
+
+#projectWrapper{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	margin-top: 140px;
+	margin-left: -200px;
+}
+.project{
+	width:250px;
+	height: 250px;
+	background: #ddddd7;
+}
+
+.projectThumbnail{
+	width:250px;
+	height: 250px;
+}
+
+#guestbookFullpage{
+	width:80vw;
+	margin-top: 50px;
+	margin-left: 10%;
+}
